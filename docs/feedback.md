@@ -1,6 +1,6 @@
 # Getting your feedback {#feedback}
 
-## Report a bug or give feedback from the app
+## Report a bug or give feedback within the app
 
 
 **<span style="color:red">To link a new issue (bug tamplate) within each app + to create an issue tamplete for feedback</span>**

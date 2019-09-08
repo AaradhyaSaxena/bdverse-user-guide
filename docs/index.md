@@ -1,7 +1,7 @@
 --- 
 title: "bdverse: User Guide"
 author: "The bdverse team"
-date: "2019-09-09"
+date: "2019-09-10"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib]
@@ -20,6 +20,13 @@ favicon: "images/favicon.ico"
 # {-}
 
 <center>
+
+Developing practical tools is extremely hard, properly use them is much harder!
+
+**May the Fo(R)ce be With You**
+
+Please give us your [feedback](#feedback)
+
 ![](images/under_construction.png "construction"){width=600px}
 
 ![](images/The-bdverse-no-line.png "bdverse")
