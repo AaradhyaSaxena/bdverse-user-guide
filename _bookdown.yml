@@ -3,7 +3,8 @@ chapter_name: "Chapter "
 repo: https://github.com/bd-R/bdverse-developing-guide
 output_dir: docs
 rmd_files: ["index.Rmd", "get_started.Rmd", "bddwc.Rmd",
-            "learn.Rmd", "news.Rmd"]
+            "bdchecks.Rmd", "bdclean.Rmd", "learn.Rmd",
+            "news.Rmd"]
 clean: [packages.bib, bookdown.bbl]
 new_session: yes
 
