@@ -135,9 +135,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="1.1.1" data-path="start.html"><a href="start.html#soon-a-stable-version-from-cran"><i class="fa fa-check"></i><b>1.1.1</b> <span style="color:red"> Soon: a stable version from CRAN</span></a></li>
 </ul></li>
 <li class="chapter" data-level="1.2" data-path="start.html"><a href="start.html#app-launcher"><i class="fa fa-check"></i><b>1.2</b> App launcher</a></li>
-<li class="chapter" data-level="1.3" data-path="start.html"><a href="start.html#using-binder"><i class="fa fa-check"></i><b>1.3</b> Using Binder</a></li>
-<li class="chapter" data-level="1.4" data-path="start.html"><a href="start.html#using-docker"><i class="fa fa-check"></i><b>1.4</b> Using Docker <img src="images/icons8-docker.svg" title="docker" width="22" /></a></li>
-<li class="chapter" data-level="1.5" data-path="start.html"><a href="start.html#possible-problems-solutions"><i class="fa fa-check"></i><b>1.5</b> Possible problems &amp; solutions</a></li>
+<li class="chapter" data-level="1.3" data-path="start.html"><a href="start.html#binder"><i class="fa fa-check"></i><b>1.3</b> Binder</a></li>
+<li class="chapter" data-level="1.4" data-path="start.html"><a href="start.html#docker"><i class="fa fa-check"></i><b>1.4</b> Docker <img src="images/icons8-docker.svg" title="docker" width="22" /></a><ul>
+<li class="chapter" data-level="" data-path="start.html"><a href="start.html#what-is-docke"><i class="fa fa-check"></i>What is Docke?</a></li>
+<li class="chapter" data-level="1.4.1" data-path="start.html"><a href="start.html#docke-guide"><i class="fa fa-check"></i><b>1.4.1</b> Docke guide</a></li>
+<li class="chapter" data-level="" data-path="start.html"><a href="start.html#play-with-docker"><i class="fa fa-check"></i>Play with Docker</a></li>
+<li class="chapter" data-level="" data-path="start.html"><a href="start.html#bdverse-docker-images"><i class="fa fa-check"></i>bdverse Docker images</a></li>
+</ul></li>
+<li class="chapter" data-level="1.5" data-path="start.html"><a href="start.html#possible-installation-problems-solutions"><i class="fa fa-check"></i><b>1.5</b> Possible installation problems &amp; solutions</a></li>
 </ul></li>
 <li class="chapter" data-level="2" data-path="bddwc.html"><a href="bddwc.html"><i class="fa fa-check"></i><b>2</b> bddwc</a><ul>
 <li class="chapter" data-level="2.1" data-path="bddwc.html"><a href="bddwc.html#bddwc-darwin-core"><i class="fa fa-check"></i><b>2.1</b> bddwc &amp; Darwin Core</a><ul>
@@ -163,6 +168,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="2.6" data-path="bddwc.html"><a href="bddwc.html#load-package"><i class="fa fa-check"></i><b>2.6</b> Load package</a></li>
 <li class="chapter" data-level="2.7" data-path="bddwc.html"><a href="bddwc.html#darwinizing-a-dataset"><i class="fa fa-check"></i><b>2.7</b> Darwinizing a dataset</a></li>
 <li class="chapter" data-level="2.8" data-path="bddwc.html"><a href="bddwc.html#updating-the-darwin-cloud-dictionary-1"><i class="fa fa-check"></i><b>2.8</b> Updating <span>the Darwin Cloud dictionary</span></a></li>
+<li class="chapter" data-level="2.9" data-path="bddwc.html"><a href="bddwc.html#a-case-study"><i class="fa fa-check"></i><b>2.9</b> A case study</a><ul>
+<li class="chapter" data-level="" data-path="bddwc.html"><a href="bddwc.html#case-study-title"><i class="fa fa-check"></i>Case study title</a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="bdchecks.html"><a href="bdchecks.html"><i class="fa fa-check"></i><b>3</b> bdchecks</a><ul>
 <li class="chapter" data-level="3.1" data-path="bdchecks.html"><a href="bdchecks.html#what-is-bddwc"><i class="fa fa-check"></i><b>3.1</b> What is bddwc</a></li>
@@ -282,8 +290,11 @@ In the first screen, you’ll need to load your biodiversity data; choose dictio
 <p><img src="images/bdDwC_Darwinizer_results.png" title="bdDwC-app Darwinizer results" alt="Darwinizer results" />
 <strong><span style="color:red">–&gt; To replace with the new app &lt;–</span></strong></p>
 <p>Manually renaming field names can be done very easily, just choose the two corresponding fields and click the Rename button.</p>
-<p><img src="images/bdDwC_Manual_rename.png" title="bdDwC-app Manual renaming" alt="Manually renaming fields" />
-<strong><span style="color:red">–&gt; To replace with the new app &lt;–</span></strong></p>
+<div class="figure">
+<img src="images/bdDwC_Manual_rename.png" title="bdDwC-app Manual renaming" alt="Manually renaming fields" />
+<p class="caption">Manually renaming fields</p>
+</div>
+<p><strong><span style="color:red">–&gt; To replace with the new app &lt;–</span></strong></p>
 <p>Hovering over a DwC standard name will display its description.</p>
 </div>
 <div id="download-your-darwinized-data" class="section level3">
@@ -318,7 +329,15 @@ In the first screen, you’ll need to load your biodiversity data; choose dictio
 <p>To get newest version of Darwin Cloud Data run:</p>
 <div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb8-1" title="1"><span class="kw">downloadCloudData</span>()</a></code></pre></div>
 <p>which will download data from the remote repository and extract field and standard names.</p>
+</div>
+<div id="a-case-study" class="section level2">
+<h2><span class="header-section-number">2.9</span> A case study</h2>
+<div id="case-study-title" class="section level3 unnumbered">
+<h3>Case study title</h3>
+<hr />
+<p><strong><span style="color:red">[ TBA ]</span></strong></p>
 
+</div>
 </div>
 </div>
 <h3> References</h3>

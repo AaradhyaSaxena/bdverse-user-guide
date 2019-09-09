@@ -110,6 +110,7 @@ Manually renaming field names can be done very easily, just choose the two corre
 [comment]: <> (Need-To-Be-Updated!)
 
 ![Manually renaming fields](images/bdDwC_Manual_rename.png "bdDwC-app Manual renaming")
+
 **<span style="color:red">--> To replace with the new app <--</span>**
 
 Hovering over a DwC standard name will display its description.
@@ -160,4 +161,9 @@ downloadCloudData()
 ```
 which will download data from the remote repository and extract field and standard names.
 
+## A case study
 
+### Case study title {-}
+***
+
+**<span style="color:red">[ TBA ]</span>**

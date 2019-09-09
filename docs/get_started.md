@@ -27,11 +27,28 @@ bdverse::bd_launcher()
 </div>
 
 
-## Using Binder
+## Binder
 
-## Using Docker ![](images/icons8-docker.svg "docker"){width=22px}
+**<span style="color:red">[To try `holepunch`]</span>**
 
-## Possible problems & solutions
+## Docker ![](images/icons8-docker.svg "docker"){width=22px}
+### What is Docke? {-}
+
+**<span style="color:red">[TBA]</span>**
+
+### Docke guide
+
+**<span style="color:red">[To link rOpenSci guide]</span>**
+
+### Play with Docker {-}
+
+**<span style="color:red">[TBA]</span>**
+
+### bdverse Docker images {-}
+
+**<span style="color:red">[TBA]</span>**
+
+## Possible installation problems & solutions
 
 **<span style="color:red">[ TBA ]</span>**
 
