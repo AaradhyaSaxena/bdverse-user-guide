@@ -7,7 +7,7 @@ install.packages("remotes")
 remotes::install_github("bd-R/bdverse")
 ```
 
-### <span style="color:red"> Soon: a stable version from CRAN</span>
+### <span style="color:red"> Hopefully soon: a stable version from CRAN</span>
 
 [comment]: <> (Need-To-Be-Updated!)
 
@@ -37,7 +37,7 @@ knitr::include_graphics("images/app_launcher.gif")
 
 ### Docke guide
 
-**<span style="color:red">[To link rOpenSci guide]</span>**
+**<span style="color:red">[Link to rOpenSci Docker guide]</span>**
 
 ### Play with Docker {-}
 

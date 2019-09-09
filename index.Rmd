@@ -42,7 +42,7 @@ This book is a living document. You can view updates about this user guide in th
 
 # What is the `bdverse` {-}
 
-**<span style="color:red">[To add fig.]</span>**
+**<span style="color:red">[To add new figure]</span>**
 
 The `bdverse` is a family of R packages for biodiversity data. We build it to serve as a sustainable and agile infrastructure that enhances the value of biodiversity data by allowing users to conveniently employ R, for data exploration, quality assessment, data cleaning, and standardization. The `bdverse` supports users with and **without** programming capabilities.
 
