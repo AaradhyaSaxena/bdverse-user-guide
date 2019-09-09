@@ -42,6 +42,8 @@ This book is a living document. You can view updates about this user guide in th
 
 # What is the `bdverse` {-}
 
+**<span style="color:red">[To add fig.]</span>**
+
 The `bdverse` is a family of R packages for biodiversity data. We build it to serve as a sustainable and agile infrastructure that enhances the value of biodiversity data by allowing users to conveniently employ R, for data exploration, quality assessment, data cleaning, and standardization. The `bdverse` supports users with and **without** programming capabilities.
 
 * `bdDwC` provides an interactive Shiny app and a set of functions for standardizing field names in compliance with Darwin Core (DwC) format, see [bdDwC section](#bdDwC).
@@ -59,4 +61,4 @@ We hope that you'll find the guide useful and clear, and welcome your suggestion
 
 [![](images/GSoC.png "GSoC website")](https://summerofcode.withgoogle.com/ target="_blank")
 
-**<span style="color:red"> [To add: Blumenstein fund] </span>**
+**<span style="color:red"> [To add: Technion's Blumenstein Fund] </span>**

@@ -173,11 +173,29 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="bdchecks.html"><a href="bdchecks.html"><i class="fa fa-check"></i><b>3</b> bdchecks</a><ul>
-<li class="chapter" data-level="3.1" data-path="bdchecks.html"><a href="bdchecks.html#what-is-bddwc"><i class="fa fa-check"></i><b>3.1</b> What is bddwc</a></li>
-<li class="chapter" data-level="3.2" data-path="bdchecks.html"><a href="bdchecks.html#shiny-app-1"><i class="fa fa-check"></i><b>3.2</b> Shiny app</a></li>
+<li class="chapter" data-level="3.1" data-path="bdchecks.html"><a href="bdchecks.html#what-is-bdchecks"><i class="fa fa-check"></i><b>3.1</b> What is bdchecks</a></li>
+<li class="chapter" data-level="3.2" data-path="bdchecks.html"><a href="bdchecks.html#shiny-app-1"><i class="fa fa-check"></i><b>3.2</b> Shiny app</a><ul>
+<li class="chapter" data-level="3.2.1" data-path="bdchecks.html"><a href="bdchecks.html#data-upload-and-download"><i class="fa fa-check"></i><b>3.2.1</b> Data upload and download</a></li>
+<li class="chapter" data-level="3.2.2" data-path="bdchecks.html"><a href="bdchecks.html#choose-data-checks"><i class="fa fa-check"></i><b>3.2.2</b> Choose data checks</a></li>
+<li class="chapter" data-level="3.2.3" data-path="bdchecks.html"><a href="bdchecks.html#checks-results-and-data-filtering"><i class="fa fa-check"></i><b>3.2.3</b> Checks results and data filtering</a></li>
+<li class="chapter" data-level="" data-path="bdchecks.html"><a href="bdchecks.html#overwiew"><i class="fa fa-check"></i>Overwiew</a></li>
+<li class="chapter" data-level="" data-path="bdchecks.html"><a href="bdchecks.html#filtering-the-data-based-on-the-results"><i class="fa fa-check"></i>Filtering the data based on the results</a></li>
+<li class="chapter" data-level="3.2.4" data-path="bdchecks.html"><a href="bdchecks.html#closing-the-app-1"><i class="fa fa-check"></i><b>3.2.4</b> Closing the app</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="bdchecks.html"><a href="bdchecks.html#command-line-operations-1"><i class="fa fa-check"></i><b>3.3</b> Command line operations</a></li>
+<li class="chapter" data-level="3.4" data-path="bdchecks.html"><a href="bdchecks.html#load-package-1"><i class="fa fa-check"></i><b>3.4</b> Load package</a></li>
+<li class="chapter" data-level="3.5" data-path="bdchecks.html"><a href="bdchecks.html#perform-data-checks"><i class="fa fa-check"></i><b>3.5</b> Perform data checks</a></li>
+<li class="chapter" data-level="3.6" data-path="bdchecks.html"><a href="bdchecks.html#review-performed-checks"><i class="fa fa-check"></i><b>3.6</b> Review performed checks</a><ul>
+<li class="chapter" data-level="3.6.1" data-path="bdchecks.html"><a href="bdchecks.html#filtering-your-data"><i class="fa fa-check"></i><b>3.6.1</b> Filtering your data</a></li>
+</ul></li>
+<li class="chapter" data-level="3.7" data-path="bdchecks.html"><a href="bdchecks.html#data-checks-infrastructure"><i class="fa fa-check"></i><b>3.7</b> Data checks infrastructure</a><ul>
+<li class="chapter" data-level="3.7.1" data-path="bdchecks.html"><a href="bdchecks.html#data-checks-yaml-file"><i class="fa fa-check"></i><b>3.7.1</b> Data checks YAML file</a></li>
+<li class="chapter" data-level="3.7.2" data-path="bdchecks.html"><a href="bdchecks.html#data-check-example"><i class="fa fa-check"></i><b>3.7.2</b> Data check example</a></li>
+<li class="chapter" data-level="3.7.3" data-path="bdchecks.html"><a href="bdchecks.html#manage-your-own-data-checks"><i class="fa fa-check"></i><b>3.7.3</b> Manage your own data checks</a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="bdclean.html"><a href="bdclean.html"><i class="fa fa-check"></i><b>4</b> bdclean</a><ul>
-<li class="chapter" data-level="4.1" data-path="bdclean.html"><a href="bdclean.html#what-is-bddwc-1"><i class="fa fa-check"></i><b>4.1</b> What is bddwc</a></li>
+<li class="chapter" data-level="4.1" data-path="bdclean.html"><a href="bdclean.html#what-is-bddwc"><i class="fa fa-check"></i><b>4.1</b> What is bddwc</a></li>
 <li class="chapter" data-level="4.2" data-path="bdclean.html"><a href="bdclean.html#shiny-app-2"><i class="fa fa-check"></i><b>4.2</b> Shiny app</a></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="learn.html"><a href="learn.html"><i class="fa fa-check"></i><b>5</b> Learn more</a><ul>
@@ -209,12 +227,169 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
             <section class="normal" id="section-">
 <div id="bdchecks" class="section level1">
 <h1><span class="header-section-number">Chapter 3</span> bdchecks</h1>
-<div id="what-is-bddwc" class="section level2">
-<h2><span class="header-section-number">3.1</span> What is bddwc</h2>
+<div id="what-is-bdchecks" class="section level2">
+<h2><span class="header-section-number">3.1</span> What is bdchecks</h2>
+<p><code>bdchecks</code> supplies a Shiny app and a set of functions to perform and manage various data checks for biodiversity data.</p>
+<p><img src="images/bdchecks_bdverse.png" title="bdchecks-bdverse" alt="bdchecks in the bdverse" />
+<strong><span style="color:red">–&gt; To replace with new bdchecks overview &lt;–</span></strong></p>
+<div id="what-are-biodiversity-data-checks" class="section level4 unnumbered">
+<h4>What are biodiversity data checks?</h4>
+<p>Data checks can include format checks, completeness checks, reasonableness checks, limit checks, etc. These processes usually result in flagging, documenting, and subsequent correcting or eliminating of suspect records. The checks must be specifically tailored around the structure of the data at hand, in our case, the Darwin Core standard. Ideally, a data check needs to hold its functionality and relevant metadata.</p>
+</div>
+<div id="what-bdchecks-can-do-for-you" class="section level4 unnumbered">
+<h4>What <code>bdchecks</code> can do for you?</h4>
+<p><code>bdchecks</code> offers various features for various R users:</p>
+<ul>
+<li>Using the Shiny app <strong>inexperienced R users</strong> can easily perform all data check and can easily filter the data accordingly. See [The shiny app] section.</li>
+<li><strong>Experienced R users</strong> can perform all data checks by utilizing few R functions form the command line or within an R script. See <a href="bdchecks.html#command-line-operations-1">Command line operations</a> section.</li>
+<li><strong>Advanced R users</strong> can even edit, add and manage their own collection of data checks, quite easily so. See <a href="#">Data checks infrastructure section</a>.</li>
+</ul>
+</div>
 </div>
 <div id="shiny-app-1" class="section level2">
 <h2><span class="header-section-number">3.2</span> Shiny app</h2>
+<div id="data-upload-and-download" class="section level3">
+<h3><span class="header-section-number">3.2.1</span> Data upload and download</h3>
+<p>As in<code>bddwc</code>: <a href="bddwc.html#dataupload">data upload</a>, <a href="bddwc.html#datadownload">data download</a>.</p>
+</div>
+<div id="choose-data-checks" class="section level3">
+<h3><span class="header-section-number">3.2.2</span> Choose data checks</h3>
+<p><img src="images/bdchecks_choose_DC.png" title="bdchecks-app data-choose-DC" alt="Choose a data check by checking its box" />
+<strong><span style="color:red">–&gt; To replace with the new app &lt;–</span></strong></p>
+<p><img src="images/bdchecks_hover.png" title="bdchecks-app DC_hover" alt="Hovering over a data check name shows a short description" />
+<strong><span style="color:red">–&gt; To replace with the new app &lt;–</span></strong></p>
+</div>
+<div id="checks-results-and-data-filtering" class="section level3">
+<h3><span class="header-section-number">3.2.3</span> Checks results and data filtering</h3>
+</div>
+<div id="overwiew" class="section level3 unnumbered">
+<h3>Overwiew</h3>
+<div class="figure">
+<img src="images/bdchecks_DC_results_overview.png" title="bdchecks-app results_overview" alt="Results page overview" />
+<p class="caption">Results page overview</p>
+</div>
+<p><strong><span style="color:red">–&gt; To replace with the new app &lt;–</span></strong></p>
+</div>
+<div id="filtering-the-data-based-on-the-results" class="section level3 unnumbered">
+<h3>Filtering the data based on the results</h3>
+<div class="figure">
+<img src="images/bdchecks_filtering_table.png" title="bdchecks-app results_filter" alt="Choose specific results to filter out" />
+<p class="caption">Choose specific results to filter out</p>
+</div>
+<p><strong><span style="color:red">–&gt; To replace with the new app &lt;–</span></strong></p>
+<div class="figure">
+<img src="images/bdchecks_filtering_action.png" title="bdchecks-app filter-action" alt="Filter the data and download your filtered data" />
+<p class="caption">Filter the data and download your filtered data</p>
+</div>
+<p><strong><span style="color:red">–&gt; To replace with the new app &lt;–</span></strong></p>
+</div>
+<div id="closing-the-app-1" class="section level3">
+<h3><span class="header-section-number">3.2.4</span> Closing the app</h3>
+<p>Just close the app browser tab, and the R session will be terminated. To reopen it run in the R Console <code>runbdchecks()</code>.</p>
+</div>
+</div>
+<div id="command-line-operations-1" class="section level2">
+<h2><span class="header-section-number">3.3</span> Command line operations</h2>
+<p><strong><span style="color:red">–&gt; To synchronize functions with the new version!!!! &lt;–</span></strong></p>
+</div>
+<div id="load-package-1" class="section level2">
+<h2><span class="header-section-number">3.4</span> Load package</h2>
+<p>Load the <code>bdchecks</code> package</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb9-1" title="1">    <span class="kw">library</span>(bdchecks)</a></code></pre></div>
+</div>
+<div id="perform-data-checks" class="section level2">
+<h2><span class="header-section-number">3.5</span> Perform data checks</h2>
+<p><code>bdchecks</code> contains a dataset on bats named <code>dataBats</code>.</p>
+<p>To perform all data checks use <code>performDataCheck</code>:</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb10-1" title="1">resultDC &lt;-<span class="st"> </span>bdchecks<span class="op">::</span><span class="kw">performDataCheck</span>(bdchecks<span class="op">::</span>dataBats)</a></code></pre></div>
+<p>replace <code>bdchecks::dataBats</code> with your own dataset name.</p>
+</div>
+<div id="review-performed-checks" class="section level2">
+<h2><span class="header-section-number">3.6</span> Review performed checks</h2>
+<p>See which data checks were performed:</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb11-1" title="1">resultDC</a></code></pre></div>
+<p>Review data checks result (% of records that passed, failed or have missing data)</p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb12-1" title="1"><span class="co"># Nice summary</span></a>
+<a class="sourceLine" id="cb12-2" title="2"><span class="kw">summary_DC</span>(resultDC)</a></code></pre></div>
+<div id="filtering-your-data" class="section level3">
+<h3><span class="header-section-number">3.6.1</span> Filtering your data</h3>
+<p><strong><span style="color:red">[ TBA ]</span></strong></p>
+</div>
+</div>
+<div id="data-checks-infrastructure" class="section level2">
+<h2><span class="header-section-number">3.7</span> Data checks infrastructure</h2>
+<p><strong><span style="color:red">[Write short explanation + give a link to the relevant section in the developer-guide]</span></strong></p>
+<div id="data-checks-yaml-file" class="section level3">
+<h3><span class="header-section-number">3.7.1</span> Data checks YAML file</h3>
+<p><strong><span style="color:red">[Move section to dev-guide; add Shiny management app; explain unit testing framework + synchronization system]</span></strong></p>
+<p>The YMAL file holds the code and metadata of all data checks. The checks are derived from a core suite of tests and assertions being developed by <a href="https://www.tdwg.org/" target="_blank">TDWG</a>’s <a href="https://www.tdwg.org/community/bdq/" target="_blank">Biodiversity Data Quality</a> <strong><a href="https://www.tdwg.org/community/bdq/tg-2/" target="_blank">Task Group 2 ( Data Quality Tests and Assertions)</a></strong>. More information and links can be found in the <a href="learn.html#learn">Learn more</a> section.</p>
+</div>
+<div id="data-check-example" class="section level3">
+<h3><span class="header-section-number">3.7.2</span> Data check example</h3>
+<pre class="ymal"><code>DC_b23110e7-1be7-444a-a677-cdee0cf4330c:
+  name: countryMismatch
+  meta:
+    Description:
+      Main: Check if given country match given country code.
+      InputQuestion: Does country and country code match?
+      Example:
+        Fail: Country name (dwc:country) and ISO country code (dwc:countryCode) do
+          not match
+        Pass: Country name (dwc:country) and ISO country code (dwc:countryCode) match
+        InputFail: country=Australia, countryCode=4
+        InputPass: country=Australia, countryCode=AU
+        OutputFail: Failed
+        OutputPass: Passed
+      Resolution:
+        Record: SingleRecord
+        Term: MultiTerm
+      DarwinCoreClass: Location
+      Keywords: location,iso,country
+      guid: b23110e7-1be7-444a-a677-cdee0cf4330c
+    Flags:
+      Severity: Warning
+      Warning: Inconsistent
+      Output: Validation
+      Dimension: Consistency
+    Pseudocode: |
+      get.Country($countryCode) == $country
+    Source:
+      Reference:
+      CreatedBy: Povilas Gibas
+      MaintainedBy: Povilas Gibas
+      CreationDate: 2018-06-27
+      ModificationDate: 2018-06-27
+      ModificationHist:
+  Input:
+    Target: country,countryCode
+    Dependency:
+      DependencyType: Internal
+      DataChecks:
+      Rpackages: rgbif 
+      Data: isocodes$name,isocodes$code
+  Functionality: |
+      FUNC &lt;- function() {
+          result &lt;- sapply(seq_along(TARGET1), function(i) {
+              if (is.na(TARGET1[i]) | is.na(TARGET2[i])) {
+                  NA
+              } else {
+                  which(DEPEND1 == TARGET1[i]) == which(DEPEND2 == TARGET2[i])
+              }
+          })
+          result &lt;- unlist(result)
+          return(result)
+       }</code></pre>
+<p><strong><span style="color:red"> To replace with the new structure!!! </span></strong></p>
+</div>
+<div id="manage-your-own-data-checks" class="section level3">
+<h3><span class="header-section-number">3.7.3</span> Manage your own data checks</h3>
+<p><strong><span style="color:red"> To encourage or not to encourage mmm… </span></strong></p>
+<p>After adding/ removing/ editing the YAML file, you can load data checks into R using <code>getDC()</code> function.</p>
+<div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb14-1" title="1">DC &lt;-<span class="st"> </span><span class="kw">getDC</span>(<span class="st">&quot;path to your YAML file&quot;</span>)</a></code></pre></div>
+<p>You can also export data checks from your YAML file to .rda and roxygen2 comments.</p>
+<div class="sourceCode" id="cb15"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb15-1" title="1"><span class="kw">exportDC</span>(<span class="st">&quot;path to your YAML file&quot;</span>)</a></code></pre></div>
 
+</div>
 </div>
 </div>
             </section>
