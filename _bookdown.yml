@@ -1,0 +1,9 @@
+book_filename: "bdverse-user-guide"
+chapter_name: "Chapter "
+repo: https://github.com/bd-R/bdverse-developing-guide
+output_dir: _book
+rmd_files: ["index.Rmd", "get_started.Rmd", "bddwc.Rmd",
+            "learn.Rmd", "news.Rmd"]
+clean: [packages.bib, bookdown.bbl]
+new_session: yes
+
