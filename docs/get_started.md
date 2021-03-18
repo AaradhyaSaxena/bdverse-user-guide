@@ -18,7 +18,7 @@ install.packages("bdverse")
 ## App launcher
 
 ```r
-bdverse::bd_launcher()
+bdverse::bdverse_app()
 ```
 
 <div class="figure">
